@@ -142,18 +142,35 @@ public class TabActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 11;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
                 case 0:
-                    return "SECTION 1 SECTION 1 SECTION 1 SECTION 1";
+                    return "SECTION 1";
                 case 1:
                     return "SECTION 2";
                 case 2:
                     return "SECTION 3";
+                case 3:
+                    return "SECTION 4";
+                case 4:
+                    return "SECTION 5";
+                case 5:
+                    return "SECTION 6";
+                case 6:
+                    return "SECTION 7";
+                case 7:
+                    return "SECTION 8";
+                case 8:
+                    return "SECTION 9";
+                case 9:
+                    return "SECTION 10";
+                case 10:
+                    return "SECTION 11";
+
             }
             return null;
         }
