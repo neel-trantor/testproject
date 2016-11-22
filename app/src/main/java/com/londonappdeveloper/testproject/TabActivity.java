@@ -142,6 +142,7 @@ public class TabActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
+            return 11;
         }
 
         @Override
@@ -167,6 +168,8 @@ public class TabActivity extends AppCompatActivity {
                     return "SECTION 9";
                 case 9:
                     return "SECTION 10";
+                case 10:
+                    return "SECTION 11";
 
             }
             return null;
