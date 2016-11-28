@@ -42,6 +42,7 @@ public class TabActivity extends AppCompatActivity {
         setContentView(R.layout.activity_tab);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("nick");
         setSupportActionBar(toolbar);
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
