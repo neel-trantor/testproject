@@ -59,6 +59,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "862934434804-urnbfn9qbp90hi50v277922k5uo44t8e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.londonappdeveloper.testproject",
+            "certificate_hash": "C1A25CEA9BECA6A14F86D0824EC795BA4861179B"
+          }
+        },
+        {
           "client_id": "862934434804-1gtee48mqc2uk73i3k50o2qnqevev4rh.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -73,8 +81,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862934434804-1gtee48mqc2uk73i3k50o2qnqevev4rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
